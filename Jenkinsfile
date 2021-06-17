@@ -1,6 +1,6 @@
 node {
   // pipeine exercise scm stage
-  stage('scm') {
+  stage('scm') { 
     checkout scm
   }
 }
